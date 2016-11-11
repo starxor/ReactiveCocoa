@@ -1,0 +1,7 @@
+run() {
+        script/gyb/gyb -Dframework=$1 -Dtarget=$2 --line-directive '' -o ReactiveCocoa/$3/BindingTargetSubstituting.generated.swift ReactiveCocoa/BindingTargetSubstituting.swift.gyb
+}
+
+run AppKit macOS AppKit
+run UIKit iOS UIKit/iOS
+run UIKit tvOS UIKit/tvOS

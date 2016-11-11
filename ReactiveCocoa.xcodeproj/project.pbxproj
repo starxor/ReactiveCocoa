@@ -137,6 +137,9 @@
 		9A6AAA2B1DB8F85C0013AAEA /* ReusableComponentsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6AAA271DB8F7EB0013AAEA /* ReusableComponentsSpec.swift */; };
 		9A6AAA2E1DB903A20013AAEA /* ReusableComponentsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6AAA291DB8F7F10013AAEA /* ReusableComponentsSpec.swift */; };
 		9A6AAA2F1DB903A40013AAEA /* ReusableComponentsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6AAA291DB8F7F10013AAEA /* ReusableComponentsSpec.swift */; };
+		9A92AC1C1E064BFB00D16628 /* BindingTargetSubstituting.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92AC171E064BE800D16628 /* BindingTargetSubstituting.generated.swift */; };
+		9A92AC1D1E064BFE00D16628 /* BindingTargetSubstituting.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92AC191E064BEF00D16628 /* BindingTargetSubstituting.generated.swift */; };
+		9A92AC1F1E064E0C00D16628 /* BindingTargetSubstituting.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A92AC1E1E064E0C00D16628 /* BindingTargetSubstituting.generated.swift */; };
 		9A9A129A1DC7A97100D10223 /* UIGestureRecognizerSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4191394B1DBA002C0043C9D1 /* UIGestureRecognizerSpec.swift */; };
 		9A9DFEE51DA7B5500039EE1B /* NSObject+Intercepting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1D065A1D93EC6E00ACF44C /* NSObject+Intercepting.swift */; };
 		9A9DFEE91DA7EFB60039EE1B /* AssociationSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9DFEE81DA7EFB60039EE1B /* AssociationSpec.swift */; };
@@ -340,9 +343,16 @@
 		9A6AAA251DB8F5280013AAEA /* ReusableComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableComponents.swift; sourceTree = "<group>"; };
 		9A6AAA271DB8F7EB0013AAEA /* ReusableComponentsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableComponentsSpec.swift; sourceTree = "<group>"; };
 		9A6AAA291DB8F7F10013AAEA /* ReusableComponentsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReusableComponentsSpec.swift; sourceTree = "<group>"; };
+		9A92AC171E064BE800D16628 /* BindingTargetSubstituting.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BindingTargetSubstituting.generated.swift; path = iOS/BindingTargetSubstituting.generated.swift; sourceTree = "<group>"; };
+		9A92AC191E064BEF00D16628 /* BindingTargetSubstituting.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BindingTargetSubstituting.generated.swift; path = tvOS/BindingTargetSubstituting.generated.swift; sourceTree = "<group>"; };
+		9A92AC1E1E064E0C00D16628 /* BindingTargetSubstituting.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingTargetSubstituting.generated.swift; sourceTree = "<group>"; };
 		9A9DFEE81DA7EFB60039EE1B /* AssociationSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociationSpec.swift; sourceTree = "<group>"; };
 		9AAD49871DED2C350068EC9B /* UIKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKeyboard.swift; sourceTree = "<group>"; };
 		9AAD49891DED2F380068EC9B /* UIKeyboardSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKeyboardSpec.swift; sourceTree = "<group>"; };
+		9ABEA2061DD62E36008329A9 /* BindingTargetSubstituting.swift.gyb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BindingTargetSubstituting.swift.gyb; sourceTree = "<group>"; };
+		9ABEA20B1DD62E8E008329A9 /* BindingTargetSubstituting.gyb.py */ = {isa = PBXFileReference; explicitFileType = text.script.python; path = BindingTargetSubstituting.gyb.py; sourceTree = "<group>"; wrapsLines = 0; };
+		9ABEA20C1DD62EAD008329A9 /* BindingTargetSubstituting.gyb.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = BindingTargetSubstituting.gyb.py; sourceTree = "<group>"; wrapsLines = 0; };
+		9ABEA20D1DD62EC5008329A9 /* BindingTargetSubstituting.gyb.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = BindingTargetSubstituting.gyb.py; sourceTree = "<group>"; };
 		9AD0F0691D48BA4800ADFAB7 /* NSObject+KeyValueObserving.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+KeyValueObserving.swift"; sourceTree = "<group>"; };
 		9ADE4A7B1DA44A9E005C2AC8 /* CocoaAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaAction.swift; sourceTree = "<group>"; };
 		9ADE4A881DA6D206005C2AC8 /* NSControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSControl.swift; sourceTree = "<group>"; };
@@ -481,6 +491,7 @@
 		538DCB761DCA5E1600332880 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9ABEA20D1DD62EC5008329A9 /* BindingTargetSubstituting.gyb.py */,
 				538DCB781DCA5E6C00332880 /* NSLayoutConstraint.swift */,
 				53A6BED11DD4BCA90016C058 /* MKMapView.swift */,
 			);
@@ -510,12 +521,14 @@
 		9A1D05E91D93E9F100ACF44C /* AppKit */ = {
 			isa = PBXGroup;
 			children = (
+				9ABEA20B1DD62E8E008329A9 /* BindingTargetSubstituting.gyb.py */,
 				4ABEFE2F1DCFD0530066A8C2 /* NSCollectionView.swift */,
 				9ADE4A881DA6D206005C2AC8 /* NSControl.swift */,
 				4ABEFE2A1DCFD0030066A8C2 /* NSTableView.swift */,
 				9ADE4A951DA6F018005C2AC8 /* NSTextField.swift */,
 				9A6AAA251DB8F5280013AAEA /* ReusableComponents.swift */,
 				D9558AB71DFF805A003254E1 /* NSPopUpButton.swift */,
+				9ABEA21E1DD6401F008329A9 /* Generated */,
 			);
 			path = AppKit;
 			sourceTree = "<group>";
@@ -524,6 +537,7 @@
 			isa = PBXGroup;
 			children = (
 				CD91E3D41DDAC67700FA70D0 /* iOS */,
+				9ABEA20C1DD62EAD008329A9 /* BindingTargetSubstituting.gyb.py */,
 				9A6AAA221DB8F51C0013AAEA /* ReusableComponents.swift */,
 				9A1D05EC1D93E9F100ACF44C /* UIActivityIndicatorView.swift */,
 				9A1D05ED1D93E9F100ACF44C /* UIBarButtonItem.swift */,
@@ -540,6 +554,7 @@
 				9A1D05FA1D93E9F100ACF44C /* UITextField.swift */,
 				9A1D05FB1D93E9F100ACF44C /* UITextView.swift */,
 				9A1D05FC1D93E9F100ACF44C /* UIView.swift */,
+				9ABEA21D1DD64012008329A9 /* Generated */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -572,6 +587,23 @@
 				3BCAAC7B1DEE1A2300B30335 /* UIRefreshControlSpec.swift */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		9ABEA21D1DD64012008329A9 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				9A92AC191E064BEF00D16628 /* BindingTargetSubstituting.generated.swift */,
+				9A92AC171E064BE800D16628 /* BindingTargetSubstituting.generated.swift */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		9ABEA21E1DD6401F008329A9 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				9A92AC1E1E064E0C00D16628 /* BindingTargetSubstituting.generated.swift */,
+			);
+			name = Generated;
 			sourceTree = "<group>";
 		};
 		9ADE4A8C1DA6D94C005C2AC8 /* AppKit */ = {
@@ -654,10 +686,9 @@
 		D04725EC19E49ED7006002AA /* ReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				D04725EF19E49ED7006002AA /* ReactiveCocoa.h */,
-				9A1D06751D9415FB00ACF44C /* RACObjCRuntimeUtilities.h */,
-				9A1D06761D9415FB00ACF44C /* RACObjCRuntimeUtilities.m */,
+				9ABEA2061DD62E36008329A9 /* BindingTargetSubstituting.swift.gyb */,
 				9ADE4A7B1DA44A9E005C2AC8 /* CocoaAction.swift */,
+				9A2E425D1DAA6737006D909F /* CocoaTarget.swift */,
 				CD0C45DD1CC9A288009F5BF0 /* DynamicProperty.swift */,
 				9ADE4A901DA6EA40005C2AC8 /* NSObject+ReactiveExtensionsProvider.swift */,
 				9AD0F0691D48BA4800ADFAB7 /* NSObject+KeyValueObserving.swift */,
@@ -666,7 +697,9 @@
 				9AF0EA741D9A7FF700F27DDF /* NSObject+BindingTarget.swift */,
 				9A1D05DF1D93E99100ACF44C /* NSObject+Association.swift */,
 				9ADFE5A41DC0001C001E11F7 /* NSObject+Synchronizing.swift */,
-				9A2E425D1DAA6737006D909F /* CocoaTarget.swift */,
+				D04725EF19E49ED7006002AA /* ReactiveCocoa.h */,
+				9A1D06751D9415FB00ACF44C /* RACObjCRuntimeUtilities.h */,
+				9A1D06761D9415FB00ACF44C /* RACObjCRuntimeUtilities.m */,
 				9A1D05E91D93E9F100ACF44C /* AppKit */,
 				9A1D05EB1D93E9F100ACF44C /* UIKit */,
 				538DCB761DCA5E1600332880 /* Shared */,
@@ -1077,6 +1110,7 @@
 				9A1D06131D93EA0100ACF44C /* UIBarItem.swift in Sources */,
 				9A1D061F1D93EA0100ACF44C /* UITextField.swift in Sources */,
 				4ABEFE261DCFCF640066A8C2 /* UICollectionView.swift in Sources */,
+				9A92AC1D1E064BFE00D16628 /* BindingTargetSubstituting.generated.swift in Sources */,
 				9ADE4A7F1DA44A9E005C2AC8 /* CocoaAction.swift in Sources */,
 				9A1D06201D93EA0100ACF44C /* UITextView.swift in Sources */,
 				9A6AAA241DB8F51C0013AAEA /* ReusableComponents.swift in Sources */,
@@ -1161,6 +1195,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A92AC1F1E064E0C00D16628 /* BindingTargetSubstituting.generated.swift in Sources */,
 				4ABEFE2B1DCFD0030066A8C2 /* NSTableView.swift in Sources */,
 				CD0C45DE1CC9A288009F5BF0 /* DynamicProperty.swift in Sources */,
 				4ABEFE301DCFD0530066A8C2 /* NSCollectionView.swift in Sources */,
@@ -1230,6 +1265,7 @@
 				419139461DB910570043C9D1 /* UIGestureRecognizer.swift in Sources */,
 				9A1D060A1D93EA0000ACF44C /* UISwitch.swift in Sources */,
 				9A1D065C1D93EC6E00ACF44C /* NSObject+Intercepting.swift in Sources */,
+				9A92AC1C1E064BFB00D16628 /* BindingTargetSubstituting.generated.swift in Sources */,
 				9A1D06071D93EA0000ACF44C /* UILabel.swift in Sources */,
 				53A6BED31DD4BCA90016C058 /* MKMapView.swift in Sources */,
 				4A0E11001D2A92720065D310 /* NSObject+Lifetime.swift in Sources */,
