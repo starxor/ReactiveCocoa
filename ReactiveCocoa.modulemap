@@ -1,5 +1,5 @@
 framework module ReactiveCocoa {
-    umbrella header "ReactiveCocoa.h"
+    umbrella header "ReactiveCocoa-umbrella.h"
     
     export *
     module * { export * }

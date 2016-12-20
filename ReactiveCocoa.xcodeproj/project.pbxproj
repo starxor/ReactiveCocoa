@@ -433,7 +433,9 @@
 /* Begin PBXFileReference section */
 		314304151ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+RACSignalSupport.h"; sourceTree = "<group>"; };
 		314304161ACA8B1E00595017 /* MKAnnotationView+RACSignalSupport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+RACSignalSupport.m"; sourceTree = "<group>"; };
-		795283FE1E094A0A00DA3E79 /* ReactiveCocoa.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = ReactiveCocoa.modulemap; sourceTree = "<group>"; };
+		795283FE1E094A0A00DA3E79 /* ReactiveCocoa.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = ReactiveCocoa.modulemap; path = ../ReactiveCocoa.modulemap; sourceTree = "<group>"; };
+		795283FF1E094F2800DA3E79 /* ReactiveCocoaPrivate.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; name = ReactiveCocoaPrivate.modulemap; path = ../ReactiveCocoaPrivate.modulemap; sourceTree = "<group>"; };
+		795284001E09527400DA3E79 /* ReactiveCocoa-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactiveCocoa-umbrella.h"; sourceTree = "<group>"; };
 		7A70657D1A3F88B8001E8354 /* RACKVOProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RACKVOProxy.h; sourceTree = "<group>"; };
 		7A70657E1A3F88B8001E8354 /* RACKVOProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACKVOProxy.m; sourceTree = "<group>"; };
 		7A7065831A3F8967001E8354 /* RACKVOProxySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RACKVOProxySpec.m; sourceTree = "<group>"; };
@@ -1067,6 +1069,8 @@
 				D037666519EDA57100A782A9 /* extobjc */,
 				D04725EE19E49ED7006002AA /* Info.plist */,
 				795283FE1E094A0A00DA3E79 /* ReactiveCocoa.modulemap */,
+				795284001E09527400DA3E79 /* ReactiveCocoa-umbrella.h */,
+				795283FF1E094F2800DA3E79 /* ReactiveCocoaPrivate.modulemap */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -1847,7 +1851,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				MODULEMAP_FILE = ReactiveCocoa.modulemap;
+				MODULEMAP_FILE = "${SRCROOT}/ReactiveCocoa.modulemap";
+				MODULEMAP_PRIVATE_FILE = "";
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Debug;
@@ -1860,7 +1865,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				MODULEMAP_FILE = ReactiveCocoa.modulemap;
+				MODULEMAP_FILE = "${SRCROOT}/ReactiveCocoa.modulemap";
+				MODULEMAP_PRIVATE_FILE = "";
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Release;
@@ -1945,7 +1951,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				MODULEMAP_FILE = ReactiveCocoa.modulemap;
+				MODULEMAP_FILE = "${SRCROOT}/ReactiveCocoa.modulemap";
+				MODULEMAP_PRIVATE_FILE = "";
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Profile;
@@ -2015,7 +2022,8 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = ReactiveCocoa/Info.plist;
-				MODULEMAP_FILE = ReactiveCocoa.modulemap;
+				MODULEMAP_FILE = "${SRCROOT}/ReactiveCocoa.modulemap";
+				MODULEMAP_PRIVATE_FILE = "";
 				USER_HEADER_SEARCH_PATHS = ReactiveCocoa/extobjc;
 			};
 			name = Test;
