@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 GitHub, Inc. All rights reserved.
 //
 
-#import <Foundation/Foundation.h"
+#import <Foundation/Foundation.h>
 
 //! Project version number for ReactiveCocoa.
 FOUNDATION_EXPORT double ReactiveCocoaVersionNumber;
